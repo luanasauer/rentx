@@ -56,8 +56,6 @@ export function Home(){
           keyExtractor={item => String(item)}
           renderItem={({item})=> <Car data={carDataTwo}/>}
         />
-        {/* <Car data={carDataOne}/>
-        <Car data={carDataTwo}/> */}
     </Container>
   );
 }
