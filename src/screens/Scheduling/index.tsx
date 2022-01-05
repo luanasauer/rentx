@@ -3,8 +3,9 @@ import { StatusBar } from 'react-native';
 
 import { useTheme } from 'styled-components';
 import { BackButton } from '../../components/BackButton';
-import { Calendar } from '../../components/Calendar';
-import { Button } from '../Button';
+import { Calendar } from '../../components/Calendar'; 
+import { Button } from '../../components/Button';
+
 
 import ArrowSvg from '../../assets/arrow.svg';
 
@@ -18,11 +19,17 @@ import {
     Footer
 
 } from './styles';
+import { useNavigation } from '@react-navigation/native';
 
 
 export function Scheduling() {
 
     const theme = useTheme();
+    const navigation = useNavigation<any>();
+  
+    function handleConfirmRental(){
+      navigation.navigate('SchedulingDetails');
+    }
 
     return (
         <Container>
@@ -63,7 +70,7 @@ export function Scheduling() {
                 <Calendar/>
             </Content>
             <Footer>
-                <Button title='Confirmar'/>
+                <Button title='Confirmar' onPress={handleConfirmRental}/>
             </Footer>
         </Container>
     );
