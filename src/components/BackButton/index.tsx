@@ -4,6 +4,7 @@ import {MaterialIcons} from '@expo/vector-icons'
 import {
   Container
 } from './styles';
+
 import { useTheme } from 'styled-components';
 import { TouchableOpacityProps } from 'react-native';
 
