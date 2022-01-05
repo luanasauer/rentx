@@ -21,9 +21,11 @@ import {
      Period,
      Price,
      About,
-     Accessories
+     Accessories,
+     Footer
 
 } from './styles';
+import { Button } from '../Button';
 
 export function CarDetails() {
     return (
@@ -60,6 +62,9 @@ export function CarDetails() {
                     sit saepe nesciunt magnam iure nisi est ex, ad odio possimus rerum molestiae corrupti perspiciatis aliquid cumque!
                 </About>
             </Content>
+            <Footer>
+                <Button title="Confirmar"/>
+            </Footer>
         </Container> 
     );
 }
