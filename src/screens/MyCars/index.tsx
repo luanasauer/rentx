@@ -8,7 +8,7 @@ import { Car } from '../../components/Car';
 import { CarDTO } from '../../dtos/CarDTO';
 import { api } from '../../services/api';
 import { FlatList } from 'react-native-gesture-handler';
-
+import { LoadAnimation } from '../../components/LoadAnimation';
 
 import {
     Container,
@@ -26,7 +26,7 @@ import {
     CarFooterDate
 
 } from './styles';
-import { Load } from '../../components/Load';
+
 
 
 interface CarProps {
@@ -83,7 +83,7 @@ export function MyCars() {
                 </Title>
                 <SubTitle>Conforto, segurança e praticidade</SubTitle>
             </Header>
-            {loading ? <Load /> :
+            {loading ? <LoadAnimation /> :
                 <Content>
                     <Appointments>
                         <AppointmentsTitle>Agendamentos feitos</AppointmentsTitle>
