@@ -6,7 +6,7 @@ import { Routes } from './src/routes';
 
 import { ThemeProvider } from 'styled-components';
 import theme from './src/styles/theme'; 
-
+import { AppProvider } from './src/hooks';
 
 import {
   useFonts,
@@ -18,7 +18,7 @@ import {
   Archivo_400Regular,
   Archivo_500Medium,
   Archivo_600SemiBold
-} from '@expo-google-fonts/archivo';
+} from '@expo-google-fonts/archivo'; 
  
 
 
@@ -37,7 +37,9 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-     <Routes/>
+      <AppProvider>
+       <Routes/>
+      </AppProvider>
     </ThemeProvider>
   );
 }

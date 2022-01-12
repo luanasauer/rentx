@@ -18,6 +18,7 @@ import {
   Form,
   FormTitle
 } from './styles';
+import { api } from '../../../services/api';
 
 interface Params {
   user: {
@@ -33,7 +34,7 @@ export function SignUpSecondStep() {
   const [password, setPassword] = useState('');
   const [passwordConfirm, setPasswordConfirm] = useState('');
 
-  const navigation = useNavigation();
+  const navigation = useNavigation<any>();
   const route = useRoute();
   const theme = useTheme();
 
@@ -44,13 +45,31 @@ export function SignUpSecondStep() {
     navigation.goBack();
   }
 
-  function handleRegister(){
+  async function handleRegister(){
     if(!password || !passwordConfirm){
       return Alert.alert('Informe Senha e Confirmação de Senha');
     }
+    
     if(password != passwordConfirm){
       return Alert.alert('As senhas não conferem');
     }
+
+    await api.post('/users',{
+      name:user.name,
+      email: user.email,
+      driver_license: user.driverLicense,
+      password
+    })
+    .then(()=>{
+      navigation.navigate('Confirmation',{
+        nextScreenRoute:'SignIn',
+        title: 'Conta criada',
+        message: `Agora é só fazer login\ne aproveitar`
+      });
+    })
+    .catch(()=>{
+      Alert.alert('Opa', 'Não foi possivel cadastrar')
+    });    
   }
 
   return (

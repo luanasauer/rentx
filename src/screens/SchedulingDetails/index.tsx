@@ -64,7 +64,7 @@ export function SchedulingDetails() {
     const route = useRoute();
     const { car, dates } = route.params as Params;
 
-    const rentTotal = Number(dates.length * car.rent.price);
+    const rentTotal = Number(dates.length * car.price);
 
     async function handleConfirmRental() {
         const schedulesByCar = await api.get(`/schedules_bycars/${car.id}`);
@@ -85,7 +85,13 @@ export function SchedulingDetails() {
             id: car.id,
             unavailable_dates
         })//captura a resposta e faz algo
-        .then(()=> navigation.navigate('SchedulingComplete'))
+        .then(()=> {
+            navigation.navigate('Confirmation',{
+                nextScreenRoute:'Home',
+                title: 'Carro Alugado!',
+                message: `Agora você só precisa ir\naté a concessionária da RENTX\npegar seu automóvel.`
+            })
+        })
         .catch(()=>{
             setLoading(false);
             Alert.alert('Não foi possivel confirmar o agendamento')
@@ -121,8 +127,8 @@ export function SchedulingDetails() {
                         <Name>{car.name}</Name>
                     </Description>
                     <Rent>
-                        <Period>{car.rent.period}</Period>
-                        <Price>R$ {car.rent.price}</Price>
+                        <Period>{car.period}</Period>
+                        <Price>R$ {car.price}</Price>
                     </Rent>
                 </Details>
                 <Accessories>
@@ -164,7 +170,7 @@ export function SchedulingDetails() {
                 <RentalPrice>
                     <RentalPriceLabel>TOTAL</RentalPriceLabel>
                     <RentalPriceDetails>
-                        <RentalPriceQuota>{`R$ ${car.rent.price} x${dates.length} diárias`}</RentalPriceQuota>
+                        <RentalPriceQuota>{`R$ ${car.price} x${dates.length} diárias`}</RentalPriceQuota>
                         <RentalPriceTotal>R$ {rentTotal} </RentalPriceTotal>
                     </RentalPriceDetails>
                 </RentalPrice>

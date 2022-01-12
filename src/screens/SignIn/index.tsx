@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   KeyboardAvoidingView,
   StatusBar,
@@ -7,7 +7,7 @@ import {
   Alert
 
 } from 'react-native';
-
+import { useNavigation } from '@react-navigation/native';
 import * as Yup from 'yup';
 
 import theme from '../../styles/theme';
@@ -15,11 +15,16 @@ import theme from '../../styles/theme';
 import { Button } from '../../components/Button';
 import { Input } from '../../components/Input';
 import { InputPassword } from '../../components/InputPassword';
-import { useNavigation } from '@react-navigation/native';
-
+import { useAuth } from '../../hooks/auth';
 import {
-  Container, Footer, Form, Header, SubTitle, Title
-} from './styles';
+  Container, 
+  Footer, 
+  Form, 
+  Header, 
+  SubTitle, 
+  Title
+} from './styles'; 
+
 
 export function SignIn() {
 
@@ -27,7 +32,8 @@ export function SignIn() {
   const [password, setPassword] = useState('');
 
   const navigation = useNavigation<any>();
-
+  const {signIn} = useAuth();
+ 
   function handleNewAccount() {
     navigation.navigate('SignUpFirstStep');
   }
@@ -44,6 +50,7 @@ export function SignIn() {
 
       await schema.validate({email, password});
       Alert.alert('Tudo certo');
+      signIn({email,password});
 
     } catch (error) {
       if(error instanceof Yup.ValidationError){
@@ -56,6 +63,17 @@ export function SignIn() {
       }
     }
   }
+
+  //teste para ver se cria a base de dados corretamente
+  // useEffect(()=>{
+  //   async function loadData() {
+  //     const userCollection = database.get('users');
+  //     const users = await userCollection.query().fetch();
+  //     console.log(users);
+  //   }
+  //   loadData();
+  // },[])
+
 
   return (
     <KeyboardAvoidingView behavior="position" enabled>

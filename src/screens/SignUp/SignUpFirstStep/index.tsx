@@ -22,7 +22,6 @@ import {
   FormTitle
 } from './styles';
 
-
 export function SignUpFirstStep() {
 
   const [name, setName] = useState('');
@@ -30,6 +29,7 @@ export function SignUpFirstStep() {
   const [driverLicense, setDriverLicense] = useState('');
 
   const navigation = useNavigation<any>();
+  
 
   function handleBack() {
     navigation.goBack();
