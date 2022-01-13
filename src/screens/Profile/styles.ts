@@ -1,12 +1,13 @@
 import styled, { css } from 'styled-components/native';
-import { BorderlessButton, RectButton } from 'react-native-gesture-handler';
+import { BorderlessButton, RectButton, TouchableOpacity } from 'react-native-gesture-handler';
 import { getStatusBarHeight } from 'react-native-iphone-x-helper';
-import { RFValue } from 'react-native-responsive-fontsize';
+import { RFValue } from 'react-native-responsive-fontsize'; 
 
 
 interface OptionProps {
     active: boolean;
 }
+
 
 export const Container = styled.View`
     
@@ -37,8 +38,12 @@ export const HeaderTitle = styled.Text`
     font-family: ${({ theme }) => theme.fonts.secondary_600};
     color: ${({ theme }) => theme.colors.background_secondary};
 `;
+export const Content = styled.View`
 
-export const LogoutButton = styled(BorderlessButton)``;
+    padding: 0 24px;
+    margin-top: 122px;
+`;
+export const LogoutButton = styled.TouchableOpacity``;
 
 export const PhotoContainer = styled.View`
     width: 180px;
@@ -46,7 +51,7 @@ export const PhotoContainer = styled.View`
     border-radius: 90px;
 
     background-color: ${({ theme }) => theme.colors.shape};
-    margin-top: 48px;
+    margin-top: 48px; 
 
 `;
 
@@ -55,8 +60,8 @@ export const Photo = styled.Image`
     height: 180px;
     border-radius: 90px;
 `;
-
-export const PhotoButton = styled(RectButton)`
+ 
+export const PhotoButton = styled.TouchableOpacity`
     width: 40px;
     height: 40px; 
     background-color: ${({ theme }) => theme.colors.main};
@@ -64,16 +69,14 @@ export const PhotoButton = styled(RectButton)`
     align-items: center;
 
     position: absolute;
-
+    
     bottom: 10px;
     right: 10px;
+
+    
 `;
 
-export const Content = styled.View`
 
-    padding: 0 24px;
-    margin-top: 122px;
-`;
 
 export const Options = styled.View`
     border-bottom-width: 1px;
