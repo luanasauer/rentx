@@ -57,7 +57,7 @@ export function Splash() {
     });
 
     function startApp(){
-        navigation.navigate('Home');
+        navigation.navigate('SignIn');
     }
 
     useEffect(() => {
@@ -68,7 +68,7 @@ export function Splash() {
                 'worklet'
                 runOnJS(startApp)();
             }
-            )
+        )
     }, [])
 
     return (

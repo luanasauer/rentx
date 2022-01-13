@@ -1,0 +1,217 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rentx"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:3:3-75
+11-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:3:20-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:2:3-64
+12-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:2:20-62
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:4:3-63
+13-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:4:20-61
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:5:3-77
+14-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:5:20-75
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:6:3-78
+15-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:6:20-76
+16
+17    <queries>
+17-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:7:3-13:13
+18        <intent>
+18-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:8:5-12:14
+19            <action android:name="android.intent.action.VIEW" />
+19-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:9:7-58
+19-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:9:15-56
+20
+21            <category android:name="android.intent.category.BROWSABLE" />
+21-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:10:7-67
+21-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:10:17-65
+22
+23            <data android:scheme="https" />
+23-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:11:7-37
+23-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:11:13-35
+24        </intent>
+25        <!-- Query open documents -->
+26        <intent>
+26-->[:expo-file-system] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-21:18
+27            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+27-->[:expo-file-system] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-79
+27-->[:expo-file-system] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:21-76
+28        </intent>
+29        <intent>
+29-->[:expo-image-picker] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-22:18
+30
+31            <!-- Required for picking images from the camera roll if targeting API 30 -->
+32            <action android:name="android.media.action.IMAGE_CAPTURE" />
+32-->[:expo-image-picker] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-73
+32-->[:expo-image-picker] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:21-70
+33        </intent>
+34        <intent>
+34-->[:expo-image-picker] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:9-27:18
+35
+36            <!-- Required for picking images from the camera if targeting API 30 -->
+37            <action android:name="android.media.action.ACTION_VIDEO_CAPTURE" />
+37-->[:expo-image-picker] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-80
+37-->[:expo-image-picker] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:21-77
+38        </intent>
+39    </queries>
+40
+41    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+41-->[com.facebook.flipper:flipper:0.54.0] /home/luana/.gradle/caches/transforms-3/62ece1a98ef095db320a1cbbfb42e6fd/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:5-76
+41-->[com.facebook.flipper:flipper:0.54.0] /home/luana/.gradle/caches/transforms-3/62ece1a98ef095db320a1cbbfb42e6fd/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:22-73
+42    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+42-->[:react-native-community_netinfo] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+42-->[:react-native-community_netinfo] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
+43    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- Required for picking images from camera directly -->
+44    <uses-permission android:name="android.permission.CAMERA" />
+44-->[:expo-image-picker] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-65
+44-->[:expo-image-picker] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-62
+45    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+45-->[com.android.installreferrer:installreferrer:1.0] /home/luana/.gradle/caches/transforms-3/a2ea737a86af3741c901261172424374/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+45-->[com.android.installreferrer:installreferrer:1.0] /home/luana/.gradle/caches/transforms-3/a2ea737a86af3741c901261172424374/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+46
+47    <application
+47-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:14:3-31:17
+48        android:name="com.rentx.MainApplication"
+48-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:14:16-47
+49        android:allowBackup="false"
+49-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:14:162-189
+50        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+50-->[androidx.core:core:1.6.0] /home/luana/.gradle/caches/transforms-3/63630bff35c5941492530625c68eb7d4/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+51        android:debuggable="true"
+52        android:icon="@mipmap/ic_launcher"
+52-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:14:81-115
+53        android:label="@string/app_name"
+53-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:14:48-80
+54        android:roundIcon="@mipmap/ic_launcher_round"
+54-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:14:116-161
+55        android:theme="@style/AppTheme"
+55-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:14:190-221
+56        android:usesCleartextTraffic="true" >
+56-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:14:222-257
+57        <meta-data
+57-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:15:5-120
+58            android:name="expo.modules.updates.EXPO_UPDATE_URL"
+58-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:15:16-67
+59            android:value="https://exp.host/@mimorubber/rentx" />
+59-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:15:68-118
+60        <meta-data
+60-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:16:5-93
+61            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+61-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:16:16-68
+62            android:value="44.0.0" />
+62-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:16:69-91
+63        <meta-data
+63-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:17:5-82
+64            android:name="expo.modules.updates.ENABLED"
+64-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:17:16-59
+65            android:value="true" />
+65-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:17:60-80
+66        <meta-data
+66-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:18:5-105
+67            android:name="expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH"
+67-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:18:16-80
+68            android:value="ALWAYS" />
+68-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:18:81-103
+69        <meta-data
+69-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:19:5-99
+70            android:name="expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS"
+70-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:19:16-79
+71            android:value="0" />
+71-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:19:80-97
+72
+73        <activity
+73-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:20:5-25:16
+74            android:name="com.rentx.MainActivity"
+74-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:20:15-43
+75            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+75-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:20:77-154
+76            android:label="@string/app_name"
+76-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:20:44-76
+77            android:launchMode="singleTask"
+77-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:20:155-186
+78            android:theme="@style/Theme.App.SplashScreen"
+78-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:20:230-275
+79            android:windowSoftInputMode="adjustResize" >
+79-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:20:187-229
+80            <intent-filter>
+80-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:21:7-24:23
+81                <action android:name="android.intent.action.MAIN" />
+81-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:22:9-60
+81-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:22:17-58
+82
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:23:9-68
+83-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:23:19-66
+84            </intent-filter>
+85        </activity>
+86        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+86-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:26:5-81
+86-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:26:15-79
+87        <activity
+87-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:27:5-30:16
+88            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+88-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:28:7-70
+89            android:theme="@style/Base.Theme.AppCompat" >
+89-->/home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/main/AndroidManifest.xml:29:7-50
+90        </activity>
+91
+92        <provider
+92-->[:expo-file-system] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-34:20
+93            android:name="expo.modules.filesystem.FileSystemFileProvider"
+93-->[:expo-file-system] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-74
+94            android:authorities="com.rentx.FileSystemFileProvider"
+94-->[:expo-file-system] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-74
+95            android:exported="false"
+95-->[:expo-file-system] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-37
+96            android:grantUriPermissions="true" >
+96-->[:expo-file-system] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-47
+97            <meta-data
+97-->[:expo-file-system] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-33:70
+98                android:name="android.support.FILE_PROVIDER_PATHS"
+98-->[:expo-file-system] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:17-67
+99                android:resource="@xml/file_system_provider_paths" />
+99-->[:expo-file-system] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:17-67
+100        </provider> <!-- https://developer.android.com/guide/topics/manifest/provider-element.html -->
+101        <provider
+101-->[:expo-image-picker] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:9-43:20
+102            android:name="expo.modules.imagepicker.ImagePickerFileProvider"
+102-->[:expo-image-picker] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-76
+103            android:authorities="com.rentx.ImagePickerFileProvider"
+103-->[:expo-image-picker] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-75
+104            android:exported="false"
+104-->[:expo-image-picker] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-37
+105            android:grantUriPermissions="true" >
+105-->[:expo-image-picker] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-47
+106            <meta-data
+106-->[:expo-file-system] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-33:70
+107                android:name="android.support.FILE_PROVIDER_PATHS"
+107-->[:expo-file-system] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:17-67
+108                android:resource="@xml/image_picker_provider_paths" />
+108-->[:expo-file-system] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:17-67
+109        </provider>
+110
+111        <meta-data
+111-->[:expo-modules-core] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-modules-core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:89
+112            android:name="org.unimodules.core.AppLoader#react-native-headless"
+112-->[:expo-modules-core] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-modules-core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-79
+113            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
+113-->[:expo-modules-core] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-modules-core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-86
+114        <meta-data
+114-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /home/luana/.gradle/caches/transforms-3/74654632a255f4b43affdd31f9636a17/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+115            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+115-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /home/luana/.gradle/caches/transforms-3/74654632a255f4b43affdd31f9636a17/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+116            android:value="GlideModule" />
+116-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /home/luana/.gradle/caches/transforms-3/74654632a255f4b43affdd31f9636a17/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+117    </application>
+118
+119</manifest>
