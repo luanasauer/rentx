@@ -1,5 +1,5 @@
 import React from 'react'; 
-import { StatusBar, useWindowDimensions } from 'react-native';
+import { Alert, StatusBar, useWindowDimensions } from 'react-native';
 import { useNavigation, useRoute } from '@react-navigation/native';
 
 import LogoSvg from '../../assets/logo_background_gray.svg';
@@ -29,7 +29,7 @@ export function Confirmation() {
     const { title, message,nextScreenRoute } = route.params as Params;
 
   
-    function handleConfirm(){
+    function handleConfirm(){ 
       navigation.navigate(nextScreenRoute);
     }
 
@@ -45,7 +45,6 @@ export function Confirmation() {
             <Content>
                 <DoneSvg width={80} height={80} />
                 <Title>{title}</Title>
-
                 <Message>{message}</Message>
             </Content>
 

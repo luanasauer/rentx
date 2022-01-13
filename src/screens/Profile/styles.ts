@@ -8,7 +8,6 @@ interface OptionProps {
     active: boolean;
 }
 
-
 export const Container = styled.View`
     
     background-color: ${({ theme }) => theme.colors.background_primary};
@@ -61,7 +60,7 @@ export const Photo = styled.Image`
     border-radius: 90px;
 `;
  
-export const PhotoButton = styled.TouchableOpacity`
+export const PhotoButton = styled(RectButton)`
     width: 40px;
     height: 40px; 
     background-color: ${({ theme }) => theme.colors.main};
@@ -73,10 +72,7 @@ export const PhotoButton = styled.TouchableOpacity`
     bottom: 10px;
     right: 10px;
 
-    
 `;
-
-
 
 export const Options = styled.View`
     border-bottom-width: 1px;

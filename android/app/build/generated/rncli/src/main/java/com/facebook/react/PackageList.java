@@ -13,12 +13,16 @@ import java.util.ArrayList;
 
 // @nozbe/watermelondb
 import com.nozbe.watermelondb.WatermelonDBPackage;
+// @react-native-community/netinfo
+import com.reactnativecommunity.netinfo.NetInfoPackage;
 // @react-native-masked-view/masked-view
 import org.reactnative.maskedview.RNCMaskedViewPackage;
 // expo
 import expo.modules.ExpoModulesPackage;
 // lottie-react-native
 import com.airbnb.android.react.lottie.LottiePackage;
+// react-native-fast-image
+import com.dylanvann.fastimage.FastImageViewPackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 // react-native-reanimated
@@ -75,9 +79,11 @@ public class PackageList {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
       new WatermelonDBPackage(),
+      new NetInfoPackage(),
       new RNCMaskedViewPackage(),
       new ExpoModulesPackage(),
       new LottiePackage(),
+      new FastImageViewPackage(),
       new RNGestureHandlerPackage(),
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),

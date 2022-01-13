@@ -5,6 +5,8 @@ import {
   KeyboardAvoidingView,
   TouchableWithoutFeedback
 } from 'react-native';
+
+import * as Yup from 'yup';
 import * as ImagePicker from 'expo-image-picker'; 
 import { useNavigation } from '@react-navigation/core';
 import { useBottomTabBarHeight } from '@react-navigation/bottom-tabs';
@@ -15,6 +17,7 @@ import { Feather } from '@expo/vector-icons';
 import { BackButton } from '../../components/BackButton';
 import { InputPassword } from '../../components/InputPassword';
 import { Input } from '../../components/Input';
+import { Button } from '../../components/Button';
 
 import { useAuth } from '../../hooks/auth';
 import {
@@ -32,11 +35,13 @@ import {
   OptionTitle,
   Section
 } from './styles'; 
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import { useNetInfo } from '@react-native-community/netinfo';
 
 
 export function Profile() {
 
-  const {user, signOut} = useAuth();
+  const {user, signOut, updatedUser} = useAuth();
   const [option, setOption] = useState<'dataEdit' | 'passwordEdit'>('dataEdit');
   const [avatar, setAvatar] = useState(user.avatar);
   const [name, setName] = useState(user.name);
@@ -44,6 +49,7 @@ export function Profile() {
 
   const theme = useTheme();
   const navigation = useNavigation();
+  const netInfo = useNetInfo();
 
   function handleBack() {
     navigation.goBack();
@@ -51,7 +57,13 @@ export function Profile() {
   
 
   function handleOptionChange(optionSelected: 'dataEdit' | 'passwordEdit') {
-    setOption(optionSelected);
+   
+    if(netInfo.isConnected === false && optionSelected === 'passwordEdit') {
+      Alert.alert('Para mudar a senha conecte-se a Internet');
+    } else {
+      setOption(optionSelected);
+    }
+    
   }
 
   async function handleAvatarSelect() {
@@ -69,7 +81,57 @@ export function Profile() {
     if(result.uri){
       setAvatar(result.uri);
     }
-    
+  }
+
+  async function handleProfileUpdate(){
+    try {
+      const schema = Yup.object().shape({
+        driverLicense: Yup.string()
+        .required('CNH é obrigatória'),
+        name: Yup.string().required('Nome é obrigatório')
+      });
+
+      const data = {name, driverLicense};
+      await schema.validate(data);
+
+      await updatedUser({
+        id: user.id,
+        user_id: user.user_id,
+        email: user.email,
+        name,
+        driver_license: driverLicense,
+        avatar,
+        token: user.token
+      });
+
+      Alert.alert('Perfil atualizado');
+
+    } catch(error) {
+      if( error instanceof Yup.ValidationError){
+        Alert.alert('Ops', error.message);
+      } else{
+        Alert.alert('Não foi possível atualizar o perfil');
+      }
+    }
+  }
+
+  async function handleSignOut(){
+
+    Alert.alert(
+      'Tem certeza?',
+      'Se você sair, irá precisar de internet para conectar-se novamente.',
+      [
+        {
+          text:'Cancelar',
+          onPress:()=>{},
+          style:"cancel"
+        },
+        {
+          text:'Sair',
+          onPress: ()=> signOut(), 
+        }
+      ]
+    );
   }
 
   return (
@@ -83,7 +145,7 @@ export function Profile() {
                 onPress={handleBack}
               />
               <HeaderTitle> Editar Perfil </HeaderTitle>
-                <LogoutButton onPress={signOut}>
+                <LogoutButton onPress={handleSignOut}>
                   <Feather
                     name="power"
                     size={24}
@@ -93,13 +155,13 @@ export function Profile() {
             <PhotoContainer>
                 {!!avatar && <Photo source={{ uri: avatar }} />}
                 
-                <PhotoButton onPress={handleAvatarSelect}>             
+                <GestureHandlerRootView><PhotoButton onPress={handleAvatarSelect}>             
                     <Feather
                       name="camera"
                       size={24}
                       color={theme.colors.shape}
                     />
-                </PhotoButton>
+                </PhotoButton></GestureHandlerRootView>
             </PhotoContainer> 
               
           </Header>
@@ -157,6 +219,11 @@ export function Profile() {
                   />
                 </Section>
             }
+            <GestureHandlerRootView>
+            <Button
+              title="Salvar alterações"
+              onPress={handleProfileUpdate}
+            /></GestureHandlerRootView>
           </Content>
         </Container>
       </TouchableWithoutFeedback>

@@ -9,9 +9,11 @@ MERGED from [com.facebook.flipper:flipper:0.54.0] /home/luana/.gradle/caches/tra
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /home/luana/.gradle/caches/transforms-3/1a111d04c52921d6f3226d1a1ecb5f06/transformed/jetified-flipper-network-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /home/luana/.gradle/caches/transforms-3/0c5fa7a533a8c16e801c790ed3f5602a/transformed/jetified-flipper-fresco-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
 MERGED from [:nozbe_watermelondb] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/@nozbe/watermelondb/native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-community_netinfo] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-12:12
 MERGED from [:react-native-masked-view_masked-view] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/@react-native-masked-view/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:expo] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:lottie-react-native] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-fast-image] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/react-native-fast-image/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-gesture-handler] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-reanimated] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [react-native-reanimated-64-jsc.aar] /home/luana/.gradle/caches/transforms-3/d91f6603fc27cb7fb637f77559aface7/transformed/jetified-react-native-reanimated-64-jsc/AndroidManifest.xml:2:1-9:12
@@ -55,7 +57,9 @@ MERGED from [com.airbnb.android:lottie:4.0.0] /home/luana/.gradle/caches/transfo
 MERGED from [com.google.android.material:material:1.1.0] /home/luana/.gradle/caches/transforms-3/442232dfc3bd4636261367c7466b9eb8/transformed/material-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] /home/luana/.gradle/caches/transforms-3/59b8b9a3d85500dc9a7b479dc92015a5/transformed/jetified-android-image-cropper-2.8.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] /home/luana/.gradle/caches/transforms-3/f1d8efb4b8d7ab611577761c63516cd8/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /home/luana/.gradle/caches/transforms-3/74654632a255f4b43affdd31f9636a17/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:2:1-16:12
 MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/luana/.gradle/caches/transforms-3/068be625130cd77f4ec7bb71568e1cc4/transformed/jetified-fbcore-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/luana/.gradle/caches/transforms-3/350de67657d73110cbd6a4b1bc926113/transformed/jetified-glide-4.12.0/AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/luana/.gradle/caches/transforms-3/52d52cced8bebfb30ad04223b3b9dbf5/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/luana/.gradle/caches/transforms-3/7a2f7278ea67a05d51ca28d4524fb85b/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/luana/.gradle/caches/transforms-3/79b18ea19928c873180773bc8c73f69c/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -63,6 +67,8 @@ MERGED from [androidx.core:core-ktx:1.6.0] /home/luana/.gradle/caches/transforms
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/luana/.gradle/caches/transforms-3/9fa8f4dba8e9faaa5fd9b9ae5fb311f6/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.2.1] /home/luana/.gradle/caches/transforms-3/7b5fb814f3ced17bcc4aff07f638b6b1/transformed/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/luana/.gradle/caches/transforms-3/f2d639d4ca8f0a8a5abd82e4bd490b91/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/luana/.gradle/caches/transforms-3/329b2020791d160a5cde4f98e260a964/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/luana/.gradle/caches/transforms-3/61e861e3e0113a6b5c51ca3e1966fda4/transformed/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/luana/.gradle/caches/transforms-3/f3a8a4bdef3e23b5fd71a316c1019ed6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/luana/.gradle/caches/transforms-3/36ca67b5d4ef10d2db3bb55ec7df9689/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/luana/.gradle/caches/transforms-3/29f50cd6758075268688d053fd44b896/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -81,7 +87,6 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/luana
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/luana/.gradle/caches/transforms-3/8adf80ea19392f13d6b685850dd9cdb0/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/luana/.gradle/caches/transforms-3/d33465074770e2bcd23095a6cf9ad7ed/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] /home/luana/.gradle/caches/transforms-3/c8b909d754456a1ce584df7c687e20c9/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/luana/.gradle/caches/transforms-3/b449ca099d7c81dcfb9f3942062cf639/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/luana/.gradle/caches/transforms-3/a8f330e796938b67d1efec9375ab4e04/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /home/luana/.gradle/caches/transforms-3/aed1f6f5ff54ac58d197a8a9a21661a2/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/luana/.gradle/caches/transforms-3/d444aa9caf248316b8cff63ca21f638b/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
@@ -187,6 +192,12 @@ MERGED from [com.airbnb.android:lottie:4.0.0] /home/luana/.gradle/caches/transfo
 MERGED from [com.airbnb.android:lottie:4.0.0] /home/luana/.gradle/caches/transforms-3/e434f3d5758d8b05c4b69458f20671ef/transformed/jetified-lottie-4.0.0/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.1.0] /home/luana/.gradle/caches/transforms-3/442232dfc3bd4636261367c7466b9eb8/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] /home/luana/.gradle/caches/transforms-3/442232dfc3bd4636261367c7466b9eb8/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /home/luana/.gradle/caches/transforms-3/74654632a255f4b43affdd31f9636a17/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /home/luana/.gradle/caches/transforms-3/74654632a255f4b43affdd31f9636a17/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/luana/.gradle/caches/transforms-3/350de67657d73110cbd6a4b1bc926113/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/luana/.gradle/caches/transforms-3/350de67657d73110cbd6a4b1bc926113/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/luana/.gradle/caches/transforms-3/329b2020791d160a5cde4f98e260a964/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/luana/.gradle/caches/transforms-3/329b2020791d160a5cde4f98e260a964/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
 MERGED from [androidx.core:core:1.6.0] /home/luana/.gradle/caches/transforms-3/63630bff35c5941492530625c68eb7d4/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.6.0] /home/luana/.gradle/caches/transforms-3/63630bff35c5941492530625c68eb7d4/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/luana/.gradle/caches/transforms-3/1f74b56e741194d23b7000bfe8cc75ad/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
@@ -297,12 +308,16 @@ MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /home/luana/.gra
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /home/luana/.gradle/caches/transforms-3/0c5fa7a533a8c16e801c790ed3f5602a/transformed/jetified-flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
 MERGED from [:nozbe_watermelondb] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/@nozbe/watermelondb/native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:nozbe_watermelondb] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/@nozbe/watermelondb/native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_netinfo] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_netinfo] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-masked-view_masked-view] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/@react-native-masked-view/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-masked-view_masked-view] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/@react-native-masked-view/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:expo] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:expo] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:lottie-react-native] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:lottie-react-native] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-fast-image] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/react-native-fast-image/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-fast-image] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/react-native-fast-image/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-reanimated] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-43
@@ -389,8 +404,12 @@ MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] /home/luana/.gr
 MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] /home/luana/.gradle/caches/transforms-3/59b8b9a3d85500dc9a7b479dc92015a5/transformed/jetified-android-image-cropper-2.8.0/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] /home/luana/.gradle/caches/transforms-3/f1d8efb4b8d7ab611577761c63516cd8/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] /home/luana/.gradle/caches/transforms-3/f1d8efb4b8d7ab611577761c63516cd8/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /home/luana/.gradle/caches/transforms-3/74654632a255f4b43affdd31f9636a17/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /home/luana/.gradle/caches/transforms-3/74654632a255f4b43affdd31f9636a17/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:6:5-8:41
 MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/luana/.gradle/caches/transforms-3/068be625130cd77f4ec7bb71568e1cc4/transformed/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/luana/.gradle/caches/transforms-3/068be625130cd77f4ec7bb71568e1cc4/transformed/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/luana/.gradle/caches/transforms-3/350de67657d73110cbd6a4b1bc926113/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/luana/.gradle/caches/transforms-3/350de67657d73110cbd6a4b1bc926113/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/luana/.gradle/caches/transforms-3/52d52cced8bebfb30ad04223b3b9dbf5/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/luana/.gradle/caches/transforms-3/52d52cced8bebfb30ad04223b3b9dbf5/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/luana/.gradle/caches/transforms-3/7a2f7278ea67a05d51ca28d4524fb85b/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -405,6 +424,10 @@ MERGED from [androidx.fragment:fragment:1.2.1] /home/luana/.gradle/caches/transf
 MERGED from [androidx.fragment:fragment:1.2.1] /home/luana/.gradle/caches/transforms-3/7b5fb814f3ced17bcc4aff07f638b6b1/transformed/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/luana/.gradle/caches/transforms-3/f2d639d4ca8f0a8a5abd82e4bd490b91/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/luana/.gradle/caches/transforms-3/f2d639d4ca8f0a8a5abd82e4bd490b91/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/luana/.gradle/caches/transforms-3/329b2020791d160a5cde4f98e260a964/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/luana/.gradle/caches/transforms-3/329b2020791d160a5cde4f98e260a964/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/luana/.gradle/caches/transforms-3/61e861e3e0113a6b5c51ca3e1966fda4/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/luana/.gradle/caches/transforms-3/61e861e3e0113a6b5c51ca3e1966fda4/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/luana/.gradle/caches/transforms-3/f3a8a4bdef3e23b5fd71a316c1019ed6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/luana/.gradle/caches/transforms-3/f3a8a4bdef3e23b5fd71a316c1019ed6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/luana/.gradle/caches/transforms-3/36ca67b5d4ef10d2db3bb55ec7df9689/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
@@ -441,8 +464,6 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/luana/.gradle/c
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/luana/.gradle/caches/transforms-3/d33465074770e2bcd23095a6cf9ad7ed/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] /home/luana/.gradle/caches/transforms-3/c8b909d754456a1ce584df7c687e20c9/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /home/luana/.gradle/caches/transforms-3/c8b909d754456a1ce584df7c687e20c9/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/luana/.gradle/caches/transforms-3/b449ca099d7c81dcfb9f3942062cf639/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/luana/.gradle/caches/transforms-3/b449ca099d7c81dcfb9f3942062cf639/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/luana/.gradle/caches/transforms-3/a8f330e796938b67d1efec9375ab4e04/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/luana/.gradle/caches/transforms-3/a8f330e796938b67d1efec9375ab4e04/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] /home/luana/.gradle/caches/transforms-3/aed1f6f5ff54ac58d197a8a9a21661a2/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
@@ -475,8 +496,14 @@ INJECTED from /home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/debu
 		INJECTED from /home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.facebook.flipper:flipper:0.54.0] /home/luana/.gradle/caches/transforms-3/62ece1a98ef095db320a1cbbfb42e6fd/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:5-76
+MERGED from [:react-native-community_netinfo] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-76
+MERGED from [:react-native-community_netinfo] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-76
 	android:name
 		ADDED from [com.facebook.flipper:flipper:0.54.0] /home/luana/.gradle/caches/transforms-3/62ece1a98ef095db320a1cbbfb42e6fd/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-community_netinfo] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [:react-native-community_netinfo] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
 uses-permission#android.permission.READ_PHONE_STATE
 IMPLIED from /home/luana/Projetos/ignite/ReactNative/rentx/android/app/src/debug/AndroidManifest.xml:1:1-7:12 reason: com.swmansion.reanimated has a targetSdkVersion < 4
 intent#action:name:android.intent.action.OPEN_DOCUMENT_TREE
@@ -535,6 +562,12 @@ ADDED from [:expo-modules-core] /home/luana/Projetos/ignite/ReactNative/rentx/no
 		ADDED from [:expo-modules-core] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-modules-core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-86
 	android:name
 		ADDED from [:expo-modules-core] /home/luana/Projetos/ignite/ReactNative/rentx/node_modules/expo-modules-core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-79
+meta-data#com.bumptech.glide.integration.okhttp3.OkHttpGlideModule
+ADDED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /home/luana/.gradle/caches/transforms-3/74654632a255f4b43affdd31f9636a17/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+	android:value
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /home/luana/.gradle/caches/transforms-3/74654632a255f4b43affdd31f9636a17/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+	android:name
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /home/luana/.gradle/caches/transforms-3/74654632a255f4b43affdd31f9636a17/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
 uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
 ADDED from [com.android.installreferrer:installreferrer:1.0] /home/luana/.gradle/caches/transforms-3/a2ea737a86af3741c901261172424374/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
 	android:name

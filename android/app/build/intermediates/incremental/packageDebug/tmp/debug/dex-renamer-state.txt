@@ -1,4 +1,4 @@
-#Wed Jan 12 22:03:26 BRST 2022
+#Thu Jan 13 18:53:46 BRST 2022
 path.4=classes_1.dex
 path.3=classes_0.dex
 path.2=classes2.dex
@@ -19,6 +19,8 @@ base.8=/home/luana/Projetos/ignite/ReactNative/rentx/android/app/build/intermedi
 base.7=/home/luana/Projetos/ignite/ReactNative/rentx/android/app/build/intermediates/dex/debug/mergeLibDexDebug/classes_12.dex
 base.6=/home/luana/Projetos/ignite/ReactNative/rentx/android/app/build/intermediates/dex/debug/mergeLibDexDebug/classes_11.dex
 base.5=/home/luana/Projetos/ignite/ReactNative/rentx/android/app/build/intermediates/dex/debug/mergeLibDexDebug/classes_10.dex
+renamed.22=classes23.dex
+renamed.21=classes22.dex
 renamed.20=classes21.dex
 renamed.18=classes19.dex
 renamed.17=classes18.dex
@@ -40,6 +42,8 @@ base.14=/home/luana/Projetos/ignite/ReactNative/rentx/android/app/build/intermed
 base.19=/home/luana/Projetos/ignite/ReactNative/rentx/android/app/build/intermediates/dex/debug/mergeLibDexDebug/classes_16.dex
 base.18=/home/luana/Projetos/ignite/ReactNative/rentx/android/app/build/intermediates/dex/debug/mergeLibDexDebug/classes_9.dex
 base.20=/home/luana/Projetos/ignite/ReactNative/rentx/android/app/build/intermediates/dex/debug/mergeLibDexDebug/classes_17.dex
+base.22=/home/luana/Projetos/ignite/ReactNative/rentx/android/app/build/intermediates/dex/debug/mergeLibDexDebug/classes_19.dex
+base.21=/home/luana/Projetos/ignite/ReactNative/rentx/android/app/build/intermediates/dex/debug/mergeLibDexDebug/classes_18.dex
 renamed.3=classes4.dex
 path.12=classes_3.dex
 renamed.2=classes3.dex
@@ -62,3 +66,5 @@ base.12=/home/luana/Projetos/ignite/ReactNative/rentx/android/app/build/intermed
 path.20=classes_17.dex
 base.11=/home/luana/Projetos/ignite/ReactNative/rentx/android/app/build/intermediates/dex/debug/mergeLibDexDebug/classes_2.dex
 base.10=/home/luana/Projetos/ignite/ReactNative/rentx/android/app/build/intermediates/dex/debug/mergeLibDexDebug/classes_15.dex
+path.21=classes_18.dex
+path.22=classes_19.dex
